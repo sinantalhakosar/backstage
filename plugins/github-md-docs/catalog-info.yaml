@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-github-md-docs
+  title: '@backstage/plugin-github-md-docs'
+spec:
+  lifecycle: experimental
+  type: backstage-frontend-plugin
+  owner: maintainers
