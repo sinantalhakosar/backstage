@@ -6267,6 +6267,9 @@ __metadata:
     "@backstage/core-components": "workspace:^"
     "@backstage/core-plugin-api": "workspace:^"
     "@backstage/dev-utils": "workspace:^"
+    "@backstage/plugin-search-backend-module-github-md-docs": "workspace:^"
+    "@backstage/plugin-search-common": "workspace:^"
+    "@backstage/plugin-search-react": "workspace:^"
     "@backstage/test-utils": "workspace:^"
     "@backstage/theme": "workspace:^"
     "@material-ui/core": ^4.9.13
@@ -7513,7 +7516,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@backstage/plugin-search-backend-module-github-md-docs@^0.0.0, @backstage/plugin-search-backend-module-github-md-docs@workspace:plugins/search-backend-module-github-md-docs":
+"@backstage/plugin-search-backend-module-github-md-docs@^0.0.0, @backstage/plugin-search-backend-module-github-md-docs@workspace:^, @backstage/plugin-search-backend-module-github-md-docs@workspace:plugins/search-backend-module-github-md-docs":
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-search-backend-module-github-md-docs@workspace:plugins/search-backend-module-github-md-docs"
   dependencies:

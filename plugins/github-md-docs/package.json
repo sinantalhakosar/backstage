@@ -28,6 +28,9 @@
   "dependencies": {
     "@backstage/core-components": "workspace:^",
     "@backstage/core-plugin-api": "workspace:^",
+    "@backstage/plugin-search-backend-module-github-md-docs": "workspace:^",
+    "@backstage/plugin-search-common": "workspace:^",
+    "@backstage/plugin-search-react": "workspace:^",
     "@backstage/theme": "workspace:^",
     "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
