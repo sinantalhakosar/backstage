@@ -137,6 +137,10 @@ export const SearchModal = ({ toggleModal }: { toggleModal: () => void }) => {
                   value: 'tools',
                   name: 'Tools',
                 },
+                {
+                  value: 'github-md-docs',
+                  name: 'Github Markdown files',
+                },
               ]}
             />
           </Grid>

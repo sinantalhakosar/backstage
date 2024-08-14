@@ -84,6 +84,11 @@ const SearchPage = () => {
                     name: 'Documentation',
                     icon: <DocsIcon />,
                   },
+                  {
+                    value: 'github-md-docs',
+                    name: 'Github Markdown files',
+                    icon: <DocsIcon />,
+                  },
                 ]}
               />
               <Paper className={classes.filters}>
