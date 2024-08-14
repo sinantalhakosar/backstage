@@ -7487,6 +7487,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@backstage/plugin-search-backend-module-github-md-docs@^0.0.0, @backstage/plugin-search-backend-module-github-md-docs@workspace:plugins/search-backend-module-github-md-docs":
+  version: 0.0.0-use.local
+  resolution: "@backstage/plugin-search-backend-module-github-md-docs@workspace:plugins/search-backend-module-github-md-docs"
+  dependencies:
+    "@backstage/backend-common": "workspace:^"
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+  languageName: unknown
+  linkType: soft
+
 "@backstage/plugin-search-backend-module-pg@workspace:^, @backstage/plugin-search-backend-module-pg@workspace:plugins/search-backend-module-pg":
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-search-backend-module-pg@workspace:plugins/search-backend-module-pg"
@@ -27190,6 +27201,7 @@ __metadata:
     "@backstage/plugin-search-backend": "workspace:^"
     "@backstage/plugin-search-backend-module-catalog": "workspace:^"
     "@backstage/plugin-search-backend-module-explore": "workspace:^"
+    "@backstage/plugin-search-backend-module-github-md-docs": ^0.0.0
     "@backstage/plugin-search-backend-module-techdocs": "workspace:^"
     "@backstage/plugin-search-backend-node": "workspace:^"
     "@backstage/plugin-signals-backend": "workspace:^"
