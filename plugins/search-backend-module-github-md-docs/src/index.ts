@@ -21,3 +21,4 @@
  */
 
 export { searchModuleGithubMdDocs as default } from './module';
+export type { GithubMDDocument } from './types';
