@@ -31,7 +31,7 @@ export const GithubMdDocsPage = githubMdDocsPlugin.provide(
   createRoutableExtension({
     name: 'GithubMdDocsPage',
     component: () =>
-      import('./components/ExampleComponent').then(m => m.ExampleComponent),
+      import('./components/GithubMDDocPage').then(m => m.GithubMDDocPage),
     mountPoint: rootRouteRef,
   }),
 );
