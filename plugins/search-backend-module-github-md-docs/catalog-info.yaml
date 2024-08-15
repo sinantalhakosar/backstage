@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-plugin-search-backend-module-github-md-docs
+  title: '@backstage/plugin-search-backend-module-github-md-docs'
+  description: The github-md-docs backend module for the search plugin.
+spec:
+  lifecycle: experimental
+  type: backstage-backend-plugin-module
+  owner: search-maintainers

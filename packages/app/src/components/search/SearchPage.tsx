@@ -40,6 +40,7 @@ import {
 import { TechDocsSearchResultListItem } from '@backstage/plugin-techdocs';
 import { Grid, makeStyles, Paper, Theme } from '@material-ui/core';
 import React from 'react';
+import { GithubMDDocSearchResultListItem } from '@backstage/plugin-github-md-docs';
 
 const useStyles = makeStyles((theme: Theme) => ({
   filter: {
@@ -82,6 +83,11 @@ const SearchPage = () => {
                   {
                     value: 'techdocs',
                     name: 'Documentation',
+                    icon: <DocsIcon />,
+                  },
+                  {
+                    value: 'github-md-docs',
+                    name: 'Github Markdown files',
                     icon: <DocsIcon />,
                   },
                 ]}
@@ -128,6 +134,7 @@ const SearchPage = () => {
             <SearchResult>
               <CatalogSearchResultListItem icon={<CatalogIcon />} />
               <TechDocsSearchResultListItem icon={<DocsIcon />} />
+              <GithubMDDocSearchResultListItem icon={<DocsIcon />} />
             </SearchResult>
             <SearchResultPager />
           </Grid>
